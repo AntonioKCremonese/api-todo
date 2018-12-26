@@ -1,0 +1,20 @@
+{
+  "name": "backend-todo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./api/server.js",
+  "scripts": {
+    "dev": "nodemon",
+    "production": "pm2 start"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mongoose": "^5.4.0",
+    "node-restful": "^0.2.6",
+    "nodemon": "^1.18.9",
+    "pm2": "^3.2.4"
+  }
+}
